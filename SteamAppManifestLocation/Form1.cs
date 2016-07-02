@@ -18,7 +18,7 @@ namespace SteamAppManifestLocation
         string path;
         bool isdone=false;
         public Form1()
-        {
+        { 
             FolderBrowserDialog dilog = new FolderBrowserDialog();
             dilog.Description = "请选择SteamApp目录";
             DialogResult dr = dilog.ShowDialog();
